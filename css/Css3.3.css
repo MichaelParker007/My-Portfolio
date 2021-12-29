@@ -1,0 +1,476 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: white;
+}
+    .container{
+    width: 1235px;
+    margin: 0 auto;
+    border: 1px solid none;
+    height: 70px;
+}
+.header {
+    margin: 14px 0px 20px 0px;
+    width: 100%;
+}
+.wrapper__logo{
+    float: left;
+    margin-right: 51px;
+    margin-bottom: px;
+}
+.menu li{
+    float: left;
+    display: block;
+    padding:23px 21px 0px 0px ;
+}
+.menu a {
+    color: black;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+.menu a:active {
+    color: red;
+}
+.additional {
+    float: right;
+}
+.additional__phone {
+    margin: 0px;
+    color: #2f1059;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+.additional__botton {
+    width: 156px;
+    height: 38px;
+    display: block;
+    border: 1px solid #2f1059;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 4px 10px 12px;
+    box-sizing: border-box;
+    float: right;
+    margin-bottom: 20px;
+}
+.additional__paragraph {
+font-family: "Roboto Slab";
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+margin: 0px;
+color: #2f1059;
+}
+.background {
+    background: url(../img/images/house.png) center no-repeat;
+    background-size: cover;
+    width: 1962px;
+    height: 655px;
+}
+.intro {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1111px;
+    height: 191px;
+    text-align: center;
+    background: url(../img/images/cloud.png) center no-repeat;
+    background-size: cover;
+    opacity: 0.92;
+}
+.intro-paragraph {
+    color: #2f1059;
+font-family: "Roboto Slab";
+font-size: 22px;
+font-weight: 700;
+line-height: 10px;
+padding-top: 50px;
+}
+.intro-title {
+    color: #2f1059;
+    font-family: "Roboto Slab";
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1px;
+    letter-spacing: 0.86px;
+    text-transform: uppercase;
+}
+.intro-paragraph2 {
+    color: #2f1059;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 700;
+}
+.name {
+    padding-top: 29px;
+}
+.desktop__form {
+    background: url(../img/images/Прямоугольник_19.png) center no-repeat;
+    background-size: cover;
+    width: 950px;
+    height: 238px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+    top: 180px;
+    right: 20px;
+}
+.desktop {
+    background: url(../img/images/Эллипс_8.png) center no-repeat;
+    background-size: cover;
+    width: 453px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+    top: 182px;
+}
+.figur {
+    padding-top: 25px;
+}
+.group {
+    color: #fff;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 600px;
+}
+.movement {
+    display: inline-flex;
+    position: relative;
+}
+.form {
+    width: 150px;
+    height: 31px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.btn {
+    width: 250px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: #d22828;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 700;
+}
+.form__title {
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    font-weight: 700;
+    width: 550px;
+    line-height: 1px;
+}
+.order {
+    width: 500px;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 65px;
+    padding-left: 30px;
+}
+.picture {
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+.circles__movement {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+    width: 1400px;
+    position: relative;
+    right: -130px;
+    top: 300px;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 1800px;
+}
+.circle__item {
+    background: url(../img/images/большой_круг.png) center no-repeat;
+    background-size: cover;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    display: block;
+    width: 90px;
+    height: 65px;
+    text-align: center;
+    float: left;
+    padding: 40px 30px;
+    margin-right: 50px;
+}
+.circle__item:nth-child(2) {
+    margin-top: -100px;
+    
+}
+.circle__item:nth-child(3) {
+    margin-top: -200px;
+}
+.circle__item:nth-child(4) {
+    margin-top: -200px;
+    margin-left: 225px;
+}
+.circle__item:nth-child(5) {
+    margin-top: -100px;
+    margin-left: 425px;
+}
+.section__movement {
+    position: relative;
+    top: 300px;
+}
+.elips {
+    background: url(../img/images/Прямоугольник_2.png) center no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 208px;
+    padding-top: 80px;
+}
+.section__title {
+     color: #fff;
+     font-family: "Roboto Slab";
+     font-size: 28px;
+     font-weight: 700;
+     margin: 0 auto;
+     padding: 0 auto;
+     text-align: center;
+ }
+ .date {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    font-family: "Roboto Slab";
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+ }
+ .desktop__wrapper {
+     background: url(../img/images/Эллипс_11.png) center no-repeat;
+     background-size: cover;
+     width: 109px;
+     height: 109px;
+     margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+    top: 5px;
+    
+ }
+ .thumb {
+     background: url(../img/images/Эллипс_10.png) center no-repeat;
+     background-size: cover;
+     width: 71px;
+     height: 71px;
+     position: relative;
+     padding-top: 40px;
+     padding-right: 40px;
+     
+ }
+ .thumb1 {
+    width: 32px;
+    height: 38px;
+    padding-left: 40px;
+    position: relative;
+    top: -10px;
+ }
+ .img__title {
+     position: relative;
+     top: 60px;
+     margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+
+ }
+ .section__move {
+     margin-top: 400px;
+ }
+ .body__title {
+    width: 712px;
+    height: 33px;
+    margin: 0 auto;
+    padding: 0 auto;
+     text-align: center;
+     font-family: "Roboto Slab";
+     font-size: 37px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ .body__paragraph {
+    width: 400px;
+    height: 19px;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+ }
+ .body__wrapper {
+     position: relative;
+     left: 50px;
+ }
+ .form__block {
+     display: block;
+     float: left;
+     margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+ }
+ .form__block:nth-child(2) {
+     top: 25px;
+ }
+ .container__body {
+   width: 1150px;
+   margin: 0 auto;
+   border: 1px solid none;
+   height: 600px;
+ }
+ .point {
+    width: 369px;
+    height: 279px;
+ }
+ .form__move {
+    font-family: "Roboto Slab";
+    padding-left: 30px;
+    text-align: center;
+    position: relative;
+    top: -27px;
+ }
+ .main__part {
+    width: 1920px;
+    height: 600px;
+    background-color: #f0fff0
+    
+ }
+ .direction {
+     padding-top: 50px;
+ }
+ .body__title {
+     color: black;
+    font-family: "Roboto Slab";
+    font-size: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ .form__wrapper {
+    display: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    font-family: "Roboto Slab";
+    font-size: 19px;
+    font-weight: 700;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+ }
+ .background__wrapper {
+    background: url(../img/images/0_a20a7_f411ee55_orig_копия_2.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 405px;
+    padding-top: -50px;
+    position: relative;
+    top: -80px;
+ }
+.form__paragraph {
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 16px;
+    border: 1px solid none;
+    width: 350px;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    line-height: 37px;
+}
+.container__body1 {
+    width: 1150px;
+    margin: 0 auto;
+    border: 1px solid none;
+    height: 150px;
+    position: relative;
+  }
+  .container__body2 {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 1px solid none;
+    height: 150px;
+    position: relative;
+    top: -30px;
+    left: -60px;
+  }
+  .line__wrapper {
+      background: url(../img/images/Прямоугольник_18.png) center no-repeat;
+      background-size: cover;
+      width: 1920px;
+      height: 115px;
+      margin: 0 auto;
+    padding: 0 auto;
+  }
+.elips__form {
+    background: url(../img/images/Эллипс_3.png) center no-repeat;
+    background-size: cover;
+    width: 59px;
+    height: 59px;
+    display: block;
+    float: left;
+    
+    margin-right: 350px;
+    
+    
+}
+.navigation {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+    
+    
+    
+}
+.img__navigation {
+    padding-top: 15px;
+    padding-left: 14px;
+}
+.icon__wrapper {
+    position: relative;
+    right: -60px;
+    margin-top: 50px;
+}
+.icon__title {
+    
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+.advantages {
+    width: 266px;
+    height: 35px;
+    float: right;
+    position: relative;
+    left: 300px;
+    top: -50px;
+    color: #fbfafa;
+font-family: "Roboto Slab";
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+}

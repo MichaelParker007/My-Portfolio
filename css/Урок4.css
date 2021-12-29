@@ -1,0 +1,267 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+     box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+
+    padding-top: 100px;
+    padding-bottom: 227px;
+    color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.text {
+    width: 555px;
+    height: 149px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    line-height: 49px;
+
+}
+.text span {
+    font-size: 59px;
+    letter-spacing: 1.18px;
+    line-height: 73px;
+}
+
+.intro {
+    width: 397px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 47px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    display: block;
+    width: 222px;
+    background-color: #ffd429;
+    margin-top: 90px;
+    padding: 30px 0;
+
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+
+.p {
+     line-height: 1.6em;
+}
+
+.desktop {
+    margin-top: 72px;
+
+}
+
+.btn:hover {
+    background: #d9860e;
+}
+
+.section-title {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.learn {
+     padding-top: 108px;
+     padding-bottom: 120px;
+     text-align: center;
+     align-items: center;
+}
+.skills {
+     margin-top: 70px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.skill-title {
+    font-size: 15px;
+    margin: 10px 20px;
+}
+.skill-text {
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    margin: 10px 20px;
+}
+
+.mail {
+    background: #ecf3f8;
+    padding-top: 173px;
+    padding-bottom: 190px;
+    text-align: center;
+    
+}
+.form {
+    width: 400px;
+    border: 1px solid #bbbbbb;
+    font-size: 20px;
+    padding: 15px 0;
+    padding-left: 10px;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+} 
+.input {
+    width: 474px;
+    border: 1px solid #bfb8d1;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    height: 54px;
+    padding-left: 38px;
+
+}
+.btn-form {
+    border: 0;
+    font-size: 20px;
+    width: 400px;
+    cursor: pointer;
+    display: inline;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+    }
+.footer {
+    height: 100px;
+    background: #164d7a;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+.credits {
+    color: white;
+    font-size: 14px;
+    padding-top: 50px;
+    margin: 0;
+}
+.double {
+    margin-top: 50px;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+        width: 960px;
+        }
+        .text {
+            width: auto;
+        }
+        
+        .wrapper {
+            flex-direction: column;
+        }
+        .offer {
+            width: auto;
+        }
+        .intro {
+            width: 100%;
+        }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 549px;
+	    margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+	    margin-top: 15px;
+    }
+}
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+    }
+    .form {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+}

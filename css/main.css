@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+h2 {
+    color: white;
+    border: 2px solid green;
+    background: green;
+}
+h2.new {
+    padding: 50px;
+}
+p.new span {
+    color: red;
+}
+#block {
+    color: white;
+    background: blue;
+    border: 2px solid blue;
+    width: 75px;
+    height: 100px;
+.list {
+    border: 1px solid;
+    font-size: 25px;
+}
+.block {
+    border: 1px solid white;
+    margin-left: 100px;
+}
